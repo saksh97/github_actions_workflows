@@ -1,0 +1,14 @@
+name: Saksh Waghmare
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  jobkaname:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greeting
+        run: echo "Saksh says hello Hope ye chal jaye!!!!!"
+    
